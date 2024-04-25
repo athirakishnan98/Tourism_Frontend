@@ -1,0 +1,64 @@
+.departmentDiv {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  justify-content: space-around;
+  /* width: 100%; */
+  flex-wrap: wrap;
+  color: #12372a;
+}
+
+.desription {
+  padding: 20px;
+  margin: 10px 0;
+  justify-content: center;
+  color: #12372a;
+  text-align: justify;
+  text-justify: inter-word;
+}
+.react-chatbot-kit-chat-container {
+  /* display: none; */
+  position: fixed !important;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+.displayChat{
+  display: block;
+}
+.displayNoneChat{
+  display: none;
+}
+
+.appDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 430px;
+  width: 300px;
+  border-radius: 10px;
+  border: none;
+  padding: 10px;
+}
+.open-button {
+  background-color: #12372a;
+  color: #fbfada;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 100px;
+}
+.contact {
+  background-color: #fbfada;
+  width: 100%;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,72 @@
+.containerDetails {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  padding: 30px;
+  color: #12372a;
+}
+.left {
+  width: 50%;
+  max-width: 50%;
+  float: left;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* align-items: center; */
+}
+.section {
+  padding: 10px;
+}
+.review {
+  width: 100%;
+  height: 300px;
+  overflow: auto;
+  border: 1px solid #12372a;
+  border-radius: 10px;
+}
+.feedbacksection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.formData {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 500px;
+  padding: 30px;
+  background-color: #adbc9f;
+  border-radius: 10px;
+}
+.booklink {
+  display: flex;
+  cursor: "pointer";
+  text-align: center;
+  padding: 10px;
+}
+.datePicker {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 10px;
+}
+.btn-book {
+  width: 100%;
+  gap: 10px;
+  margin: 10px;
+}
+.btn-feedback {
+  width: 50%;
+  gap: 10px;
+  margin: 10px;
+}
+.right {
+  float: right;
+  max-width: 50%;
+}
+.image {
+  width: 100%;
+  height: 200px;
+}

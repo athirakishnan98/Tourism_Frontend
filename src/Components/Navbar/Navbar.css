@@ -1,0 +1,36 @@
+.navbar {
+  height: 80px;
+  background-color: #12372A;
+  color: #FBFADA;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 25px;
+}
+.items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.pages {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  color: white;
+}
+
+.link-nav {
+  text-decoration: inherit;
+  color: #ADBC9F;
+}
+
+.active{
+  color:#FBFADA ;
+}

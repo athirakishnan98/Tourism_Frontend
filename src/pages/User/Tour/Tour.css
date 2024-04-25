@@ -1,0 +1,67 @@
+.container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    justify-content: space-around;
+    /* width: 100%; */
+    flex-wrap: wrap;
+    color: #12372a;
+  }
+  .location{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    flex-direction: column;
+    font-size: 20px;
+  }
+  .speLocation{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    flex-direction: column;
+  }
+  .price{
+    font-size: 20px;
+    padding: 5px;
+  }
+  .cardPackage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 550px;
+    width: 400px;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    color: #436850;
+    background-color: #FBFADA;
+    /* overflow: auto; */
+  }
+  
+  .btn-book{
+    width: 50%;
+  }
+  .description {
+    text-align: justify;
+    text-justify: inter-word;
+  }
+  .rateCate {
+    display: flex;
+    justify-content: space-between;
+  }
+  /* .pricePduct {
+    text-align: center;
+  } */
+  .editDelete {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .imgpduct {
+    width: 100%;
+    height: 200px;
+  }
+  

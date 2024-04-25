@@ -1,0 +1,11 @@
+.details{
+  width: 100%;
+  padding: 20px;
+}
+.Rating{
+  margin: 10px;
+}
+.packageDiv{
+  display: flex;
+  justify-content: space-between;
+}
